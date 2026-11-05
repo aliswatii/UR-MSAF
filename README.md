@@ -236,6 +236,8 @@ The gating network estimates the relative importance of fine-, medium-, and coar
 A central innovation of UR-MSAF is its uniform regularization strategy.
 
 Conventional adaptive attention mechanisms may assign disproportionately high weights to individual feature scales, resulting in underutilization of other representations.
+<img width="900" height="269" alt="image" src="https://github.com/user-attachments/assets/3cc2074f-802a-4b28-8411-b413a8b4438b" />
+
 
 UR-MSAF addresses this problem by encouraging the learned gate distribution to remain close to:
 
@@ -476,6 +478,7 @@ UR-MSAF achieved an accuracy of 81.95% and an AUC of 89.28%, demonstrating compe
 An important objective of UR-MSAF is to investigate how different feature-interaction scales contribute to multimodal classification.
 
 The learned gating distributions demonstrate near-uniform scale allocation.
+<img width="899" height="547" alt="image" src="https://github.com/user-attachments/assets/5fcfe132-ee12-4256-bd13-fa4201f61d61" />
 
 | Scale | Mean gate weight |
 |---|---:|
@@ -487,11 +490,13 @@ The overall gate-weight standard deviation is approximately 0.026.
 
 The mean entropy is approximately 1.073, approaching the theoretical maximum of 1.0986.
 
+
 These findings suggest that the regularization mechanism encourages balanced scale utilization rather than excessive dependence on a single feature-interaction pathway.
 
 ## 9. Neurobiological Analysis
 
 To investigate the functional connectivity characteristics associated with ASD, the framework examines five major resting-state brain networks:
+<img width="900" height="398" alt="image" src="https://github.com/user-attachments/assets/2e330dd7-9ae7-4ae1-a513-417713690ce9" />
 
 1. Default Mode Network (DMN).
 2. Salience Network (SN).
@@ -502,6 +507,7 @@ To investigate the functional connectivity characteristics associated with ASD, 
 Connectivity matrices and ROI-wise mean connectivity strengths are examined for ASD and TD participants.
 
 The analysis highlights regional heterogeneity, including localized patterns of functional hypo- and hyperconnectivity.
+<img width="898" height="514" alt="image" src="https://github.com/user-attachments/assets/00bc01dc-14a5-46ef-bbf0-67e3d7a0f42d" />
 
 These analyses provide additional neurobiological context for understanding the functional representations used by the proposed classification framework.
 
@@ -556,47 +562,7 @@ pip install -r requirements.txt
 
 The final dependency file should specify the tested versions of PyTorch, NumPy, SciPy, scikit-learn, and other packages used by the implementation.
 
-## 12. Running the Framework
 
-The following commands illustrate the intended experimental workflow. Replace script names and arguments with those provided by the released implementation.
-
-**Step 1: Prepare the dataset**
-
-Organize the ABIDE-I functional connectivity and structural feature files.
-
-**Step 2: Preprocess the data**
-
-```bash
-python preprocessing/fmri_preprocessing.py
-
-python preprocessing/smri_features.py
-```
-
-**Step 3: Train UR-MSAF**
-
-```bash
-python training/train.py
-```
-
-**Step 4: Evaluate the model**
-
-```bash
-python training/evaluate.py
-```
-
-**Step 5: Perform ablation experiments**
-
-```bash
-python experiments/ablation_study.py
-```
-
-**Step 6: Generate interpretability results**
-
-```bash
-python experiments/gate_analysis.py
-```
-
-These commands are documentation placeholders until the corresponding executable scripts are included in the repository.
 
 ## 13. Limitations and Future Directions
 
