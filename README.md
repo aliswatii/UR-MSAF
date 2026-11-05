@@ -54,6 +54,7 @@ Learned gate weights provide quantitative information about the relative contrib
 The framework incorporates ComBat-based harmonization and site-aware stratified five-fold cross-validation to address inter-site variability and reduce site-related data leakage.
 
 ## 3. Proposed Architecture
+<img width="900" height="551" alt="image" src="https://github.com/user-attachments/assets/1317498c-e567-4798-8d69-7fa751a6e9a5" />
 
 UR-MSAF consists of three principal components:
 
