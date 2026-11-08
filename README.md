@@ -447,7 +447,7 @@ To investigate the contribution of individual modalities and fusion mechanisms, 
 | sMRI only | 74.6% | 82.9% | 77.0% | 72.6% | 74.3% |
 | Simple concatenation | 78.2% | 88.4% | 78.5% | 77.6% | 77.3% |
 | Multi-scale concatenation | 80.6% | 89.7% | 81.4% | 80.7% | 79.7% |
-| **UR-MSAF** | **81.9%** | **89.2%** | **83.8%** | **80.0%** | **81.8%** |
+| **UR-MSAF** | **81.9%** | **89.2%** | **83.8%** | **80.0%** | **81.22%** |
 
 The ablation experiments demonstrate that:
 
