@@ -1,0 +1,19 @@
+# Core numerics
+numpy>=1.23
+scipy>=1.10
+
+# PyTorch (the package is named "torch" on pip)
+torch>=2.0
+
+# Machine learning and data handling
+scikit-learn>=1.1
+pandas>=1.5
+
+# Neuroimaging
+nibabel>=4.0
+nilearn>=0.9
+
+# Visualization and utilities
+matplotlib>=3.5
+seaborn>=0.12
+tqdm>=4.64
