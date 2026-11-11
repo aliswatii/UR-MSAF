@@ -434,7 +434,7 @@ The following results are reported as mean ± standard deviation across five fol
 | Sensitivity | 83.80 ± 4.78% |
 | Specificity | 80.02 ± 5.20% |
 | AUC | 89.28 ± 2.35% |
-| F1-score | 81.22 ± 5.01% |
+| F1-score | 81.30 ± 5.01% |
 | Precision | 78.94 ± 6.29% |
 
 ### 7.2 Ablation Study
@@ -447,7 +447,7 @@ To investigate the contribution of individual modalities and fusion mechanisms, 
 | sMRI only | 74.6% | 82.9% | 77.0% | 72.6% | 74.3% |
 | Simple concatenation | 78.2% | 88.4% | 78.5% | 77.6% | 77.3% |
 | Multi-scale concatenation | 80.6% | 89.7% | 81.4% | 80.7% | 79.7% |
-| **UR-MSAF** | **81.9%** | **89.2%** | **83.8%** | **80.0%** | **81.22%** |
+| **UR-MSAF** | **81.9%** | **89.2%** | **83.8%** | **80.0%** | **81.30%** |
 
 The ablation experiments demonstrate that:
 
